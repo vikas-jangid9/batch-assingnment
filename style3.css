@@ -1,0 +1,240 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    align-items: baseline;
+}
+  
+.footer-section {
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+  
+@media (min-width: 1024px) {
+    .footer-section {
+        width: auto;
+        margin-bottom: 0;
+    }
+}
+  
+.footer-logo {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+  
+.footer-logo-image {
+    height: 2rem;
+}
+  
+.footer-logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+  
+.footer-contact, .footer-links, .footer-newsletter {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.footer-contact li, .footer-links li, .footer-newsletter li {
+    margin-bottom: 0.75rem;
+}
+  
+.footer-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+}
+  
+.footer-input {
+    border: 2px solid white;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.75rem;
+    background-color: transparent;
+}
+  
+.footer-button {
+    background-color: #000;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 0.25rem;
+    margin-top: 0.75rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+@media (min-width: 1024px) {
+    .footer-button {
+        margin-top: 2.5rem;
+    }
+}
+  
+.footer-button:hover {
+    background-color: #0ef0ce; 
+    color: white;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 2.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+  
+@media (min-width: 1024px) {
+    .features {
+        flex-direction: row;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+  
+.features-image-container {
+    display: none;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+  
+@media (min-width: 1024px) {
+    .features-image-container {
+        display: flex;
+        width: 50%;
+        margin-bottom: 0;
+    }
+}
+  
+.features-image {
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+  
+.features-text {
+    width: 100%;
+    text-align: center;
+}
+  
+@media (min-width: 1024px) {
+    .features-text {
+        width: 50%;
+        text-align: left;
+    }
+}
+  
+.features-title {
+    color: #e3342f;
+}
+  
+.features-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+  
+.features-list {
+    margin-top: 2.5rem;
+    list-style: none;
+    padding: 0;
+}
+  
+.features-item {
+    margin-bottom: 2rem;
+}
+  
+.features-item-title {
+    font-weight: bold;
+}
+  
+.features-item-description {
+    color: #737373;
+}
+  
+.features-item:last-child {
+    margin-bottom: 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #000;
+    border-radius: 0.5rem;
+    color: #fff;
+    margin-top: 2.5rem;
+    padding: 1.25rem;
+  }
+  
+  .dark-mode .banner {
+    background-color: #4b5563;
+  }
+  
+  .banner-content {
+    padding: 1.25rem 2.5rem;
+  }
+  
+  .banner-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  @media (min-width: 1024px) {
+    .banner-title {
+      font-size: 2.25rem;
+    }
+  }
+  
+  .banner-description {
+    font-size: 0.75rem;
+    margin-top: 0.75rem;
+  }
+  
+  @media (min-width: 1024px) {
+    .banner-description {
+      font-size: 1rem;
+      margin-top: 1.25rem;
+    }
+  }
+  
+  .banner-button {
+    background-color: #fff;
+    color: #000;
+    padding: 0.25rem 0.75rem;
+    margin-top: 1.25rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 0.75rem;
+  }
+  
+  @media (min-width: 1024px) {
+    .banner-button {
+      padding: 0.5rem 1.5rem;
+      font-size: 1rem;
+      margin-top: 2.5rem;
+    }
+  }
+  
+  .banner-button:hover {
+    background-color: #0ef0ce; 
+    color: #fff;
+  }
+  
+  .banner-image {
+    width: 50%;
+  }
+  
+  @media (min-width: 1024px) {
+    .banner-image {
+      width: auto;
+    }
+  }
